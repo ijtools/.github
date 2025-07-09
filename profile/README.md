@@ -4,8 +4,8 @@ ijTools is a collection of plugins for the ImageJ/Fiji platform. Some of them ha
 
 Short curated list of rather stable projects:
 
-
 ### Plugins
+* [RegionFeaturesJ](https://github.com/ijtools/RegionFeaturesJ): an ImageJ library for computing features for regions stored in a label map.
 * [ijGranulometry](https://github.com/ijtools/ijGranulometry): a library that allows to apply grayscale granulometry using mathematical morphology operators. Requires the MorphoLibJ library.
 * [Digital Shapes](https://github.com/ijtools/ijDigiShapes) A collection of plugins for generating discretized version of classical geometric shapes in 2D (disks, ellipses, oriented boxes...) and in 3D (balls, elllipsoids, cuboids, cylinders...).
 * [binaryMorphology](https://github.com/ijtools/binary-morphology): implementation of morphological filters for binary images relying on distance maps. Can be faster for large values of structuring element radius.
@@ -18,6 +18,8 @@ Short curated list of rather stable projects:
   
 ### Utilities
 * [imagej-plugin-template](https://github.com/ijtools/imagej-plugin-template): template project to quickly create new plugins for ImageJ.
+
+Libraries usually use the "net.ijt" base package name, and a short name for package root. Examples: "net.ijt.geom", "net.ijt.regfeat"...
 
 <!--
 
